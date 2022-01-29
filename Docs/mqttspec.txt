@@ -1,0 +1,100 @@
+MQTT Topic
+
+bryant/thermostat/
+{ "time": 'time in epoch',
+"metric": "Indoor Air Temp",
+"value": "72"
+"units": "Farenheight"
+}
+
+{
+"time": 'time in epoch',
+"metric": "Humidity",
+"value": "45"
+"units": "Percent"
+}
+
+{ "time": 'time in epoch',
+"metric": "Set Point Heat",
+"value": "72"
+"units": "Farenheight"
+}
+
+{ "time": 'time in epoch',
+"metric": "Outdoor Air Temp",
+"value": "72"
+"units": "Farenheight"
+}
+
+{ "time": 'time in epoch',
+"metric": "Mode",
+"value": "Heat"
+"units": ""
+}
+
+bryant/airhandler/
+{ "time": 'time in epoch',
+"metric": "Blower Speed",
+"value": "720"
+"units": "RPM"
+}
+
+{ "time": 'time in epoch',
+"metric": "Air Flow",
+"value": "82"
+"units": "CFM"
+}
+
+{ "time": 'time in epoch',
+"metric": "Static Pressure",
+"value": "0.1"
+"units": "inH2O"
+}
+
+bryant/furnace/
+
+
+----------------------------
+{
+"devid": last 7 of uuid,
+"action": ["poll","read","write"],
+"epoch": time in epoch,
+"nice": "Outdoor Air Temperature",
+"metid": "OAT",
+"value": "72",
+"units": "Farenheight"
+}
+
+Thermostat
+----
+
+- Date
+- Time
+- Model
+- Firmware
+- Serial
+
+- Outdoor Temp
+
+- Humidity
+- Temp
+- Heat Set Point
+- Cool Set Point
+- Mode
+- Fan Mode
+
+Air Handler
+----
+
+- Static Pressure
+- Air Flow
+- Blower RPM
+- Filter Life Remaining
+- Dealer Name
+- Dealer Phone
+
+Furnace
+----
+- Heat Stage
+- Inducer RPM
+

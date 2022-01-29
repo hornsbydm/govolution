@@ -1,0 +1,6 @@
+github.com/npat-efault/crc16 v0.0.0-20161013170008-4128ccbe47c3 h1:LreEMrgwmSTNPbtao3jPZjwrjRYrlYTDg0kTMPOgSHg=
+github.com/npat-efault/crc16 v0.0.0-20161013170008-4128ccbe47c3/go.mod h1:1E9pLoYv14Va+AZbH8ywpTseVh5R4rwkRla445GfE1U=
+github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07 h1:UyzmZLoiDWMRywV4DUYb9Fbt8uiOSooupjTq10vpvnU=
+github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07/go.mod h1:kDXzergiv9cbyO7IOYJZWg1U88JhDg3PB6klq9Hg2pA=
+golang.org/x/sys v0.0.0-20220128215802-99c3d69c2c27 h1:XDXtA5hveEEV8JB2l7nhMTp3t3cHp9ZpwcdjqyEWLlo=
+golang.org/x/sys v0.0.0-20220128215802-99c3d69c2c27/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
